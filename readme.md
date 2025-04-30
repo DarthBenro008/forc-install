@@ -11,8 +11,22 @@ A command-line interface (CLI) tool written in Rust to manage GitHub dependencie
 
 ## Installation
 
+
 ```bash
-# TODO: Add installation instructions once published
+# Clone the repository
+git clone https://github.com/darthbenro008/forc-install
+
+# go into directory
+cd forc-install
+
+# install
+cargo install --path .
+
+# check if plugin is detected
+forc plugins
+
+# usage
+forc install owner/repo
 ```
 
 ## Usage
